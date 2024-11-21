@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.custom.security</groupId>
-    <artifactId>custum-security</artifactId>
+    <artifactId>secure_api</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>Custom Security</name>
+    <name>Secure API</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -41,8 +41,7 @@
         <dependency>
             <groupId>jakarta.servlet</groupId>
             <artifactId>jakarta.servlet-api</artifactId>
-            <version>6.0.0</version> <!-- Or another suitable version for your
-            Spring Boot version -->
+            <version>6.0.0</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
